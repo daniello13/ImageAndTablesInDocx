@@ -16,7 +16,7 @@ namespace CreateDOC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWind());
+            Application.Run(new Creator());
         }
     }
 }

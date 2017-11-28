@@ -1,6 +1,6 @@
 ﻿namespace CreateDOC
 {
-    partial class MainWind
+    partial class Creator
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -58,15 +58,15 @@
             // 
             this.openFile.FileName = "openFileDialog1";
             // 
-            // MainWind
+            // Creator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(357, 63);
+            this.ClientSize = new System.Drawing.Size(361, 224);
             this.Controls.Add(this.SaveBut);
             this.Controls.Add(this.ChooseDoc);
-            this.Name = "MainWind";
-            this.Text = "Form1";
+            this.Name = "Creator";
+            this.Text = "Creator";
             this.ResumeLayout(false);
 
         }

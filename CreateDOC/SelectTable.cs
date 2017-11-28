@@ -12,6 +12,7 @@ namespace CreateDOC
     {
         string wave;
         public int TableCount;
+        public int PageCount;
         public SelectTable(string wave)
         {
             this.wave = wave;
@@ -24,6 +25,21 @@ namespace CreateDOC
             doc.Close();
             word.Quit();
             return TableCount;
+        }
+        public int getNumPage()
+        {
+            
+            Word.Application word = new Word.Application(); //создаем COM-объект Word
+            word.Visible = false;
+            Word.Document doc = word.Documents.Open(wave);
+            Word.WdStatistic pages = Word.WdStatistic.wdStatisticPages;
+            object Format = Word.WdSaveFormat.wdFormatUnicodeText;
+            PageCount = doc.ComputeStatistics(pages);
+            wave += ".txt";
+            doc.SaveAs(wave, Format);
+            doc.Close();
+            ((Word.Application)word).Quit();
+            return PageCount;
         }
     }
 }

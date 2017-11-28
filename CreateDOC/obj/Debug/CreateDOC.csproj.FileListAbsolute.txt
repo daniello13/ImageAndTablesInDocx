@@ -2,8 +2,8 @@ C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\bin\Debug\CreateDOC.exe.config
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\bin\Debug\CreateDOC.exe
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\bin\Debug\CreateDOC.pdb
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.csprojResolveAssemblyReference.cache
-C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.MainWind.resources
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.Properties.Resources.resources
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.csproj.GenerateResource.Cache
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.exe
 C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.pdb
+C:\Users\Daniel\Desktop\CreateDOC\CreateDOC\obj\Debug\CreateDOC.Creator.resources

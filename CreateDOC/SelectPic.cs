@@ -36,10 +36,18 @@ namespace CreateDOC
         }
         public int UnZIP()
         {
-            ZipFile.ExtractToDirectory("daoc.zip", "libr");
-            PIC_count = new DirectoryInfo(@"libr\word\media").GetFiles().Length;
-            File.Move("daoc.zip", "daoc.docx");
-            return PIC_count;
+            
+            try
+            {
+                ZipFile.ExtractToDirectory("daoc.zip", "libr");
+                PIC_count = new DirectoryInfo(@"libr\word\media").GetFiles().Length; ///vk.com/lerka_gorbatko
+                File.Move("daoc.zip", "daoc.docx");
+                return PIC_count;
+            }
+            catch
+            {
+                return 0;
+            }
         }
     }
 }
